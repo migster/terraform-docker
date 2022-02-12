@@ -1,8 +1,3 @@
-variable "env" {
-    default = "dev"
-    description = "env to deploy to"
-}
-
 variable "image" {
     type = map
     description = "image for container"
